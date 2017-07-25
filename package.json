@@ -1,0 +1,23 @@
+{
+  "name": "javascript-quizes",
+  "version": "1.0.0",
+  "description": "Challenge your JavaScript abilities by completing these quizes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminmarashi/javascript-quizes.git"
+  },
+  "author": "Amin Marashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminmarashi/javascript-quizes/issues"
+  },
+  "homepage": "https://github.com/aminmarashi/javascript-quizes#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4"
+  }
+}
