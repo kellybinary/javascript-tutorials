@@ -1,4 +1,7 @@
 language: node_js
+cache:
+  directories:
+    - node_modules
 env:
     - TESTFOLDER=quizes/quiz1
     - TESTFOLDER=quizes/quiz2
