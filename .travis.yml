@@ -1,3 +1,4 @@
+language: node_js
 env:
     - TESTFOLDER=quizes/quiz1
     - TESTFOLDER=quizes/quiz2
