@@ -7,7 +7,7 @@ describe.skip('street', () => {
   it("should guarantee the pedestrians' safety on their good behavior", () => {
     expect(street(goodPedestrian)).not.toThrow();
   });
-  it('should bad pedestrians are doomed', () => {
+  it('bad pedestrians are doomed', () => {
     expect(street(badPedestrain)).toThrow(/kill/);
   });
 });
