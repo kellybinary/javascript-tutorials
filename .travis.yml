@@ -4,6 +4,8 @@ cache:
   directories:
     - node_modules
 env:
-    - TESTFOLDER=unit-tests
-    - TESTFOLDER=integration-tests
+    - TESTFOLDER=tutorials/unit-tests
+    - TESTFOLDER=tutorials/street/version-1/pedestrian
+    - TESTFOLDER=tutorials/street/version-1/street
+    - TESTFOLDER=tutorials/street/version-1/integration-tests
 script: "jest $TESTFOLDER"
