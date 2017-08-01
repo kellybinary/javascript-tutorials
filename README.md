@@ -2,3 +2,12 @@
 
 # javascript-tutorials
 Challenge your JavaScript abilities by completing these tutorials.
+
+# Development
+
+```
+git clone https://github.com/aminmarashi/javascript-tutorials.git
+cd javascript-tutorials
+yarn install
+yarn development
+```

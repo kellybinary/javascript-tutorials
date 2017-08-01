@@ -4,6 +4,7 @@
   "description": "Challenge your JavaScript abilities by completing these quizes.",
   "main": "index.js",
   "scripts": {
+    "development": "jest --watch --notify",
     "test": "jest"
   },
   "babel": {
