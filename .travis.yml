@@ -4,6 +4,6 @@ cache:
   directories:
     - node_modules
 env:
-    - TESTFOLDER=quizes/quiz1
-    - TESTFOLDER=quizes/quiz2
+    - TESTFOLDER=unit-tests
+    - TESTFOLDER=integration-tests
 script: "jest $TESTFOLDER"
